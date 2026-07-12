@@ -5,6 +5,8 @@
 
 Use **Hammerspoon as the source of truth**, with **Karabiner-Elements only for low-level key transformations** that Hammerspoon cannot express cleanly.
 
+See [Karabiner versus Hammerspoon](karabiner-vs-hammerspoon.md) for the detailed capability map.
+
 Expected outcome:
 
 - Initial setup: 30–60 minutes, including macOS permissions and a version-controlled config.
