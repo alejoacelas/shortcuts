@@ -5,7 +5,7 @@
 
 Use **Hammerspoon as the source of truth**, with **Karabiner-Elements only for low-level key transformations** that Hammerspoon cannot express cleanly.
 
-See [Karabiner versus Hammerspoon](karabiner-vs-hammerspoon.md) for the detailed capability map.
+Karabiner and Hammerspoon are the recommended options. See [Karabiner versus Hammerspoon](karabiner-vs-hammerspoon.md) for the detailed capability map before comparing the alternatives below.
 
 Expected outcome:
 
@@ -129,11 +129,12 @@ If we proceed, put the working configuration in this repository:
 ```text
 shortcuts/
 ├── README.md
-├── options.md
+├── setup.sh
+├── docs/
+│   ├── choosing-a-shortcut-system.md
+│   └── karabiner-vs-hammerspoon.md
 ├── hammerspoon/
-│   ├── init.lua
-│   ├── apps.lua
-│   └── windows.lua
+│   └── init.lua
 └── karabiner/
     └── complex_modifications/
 ```
