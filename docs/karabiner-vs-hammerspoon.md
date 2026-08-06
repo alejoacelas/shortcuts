@@ -1,4 +1,8 @@
-<!--ai-->
+---
+human_edit_tracking:
+  enabled: true
+  history: []
+---
 # Karabiner versus Hammerspoon
 
 ## The short answer
@@ -353,4 +357,3 @@ Put it in **Hammerspoon** when the sentence starts with:
 Use **Karabiner `shell_command` alone** when the action is already a stable standalone executable and Karabiner is the natural trigger. Do not introduce Hammerspoon merely to call one command.
 
 For the current goal—replacing `⌘ Space` with Search Bar—Hammerspoon alone is enough after disabling Spotlight's binding. Karabiner becomes useful later if we add a Hyper layer, tap/hold keys, per-device rules, or shortcuts macOS refuses to release cleanly.
-<!--/ai-->
