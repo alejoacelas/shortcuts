@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Karabiner versus Hammerspoon
 
 ## The short answer
