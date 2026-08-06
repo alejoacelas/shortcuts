@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Remapping shortcuts on macOS
 
 ## Recommendation
@@ -144,3 +140,4 @@ shortcuts/
 ```
 
 Start with Hammerspoon only and three mappings: `⌘ Space` for Search Bar, one app launcher, and one app-specific remap. Add Karabiner only when a concrete mapping needs lower-level interception. This keeps the first setup small without closing off the more ambitious system.
+<!--/ai-->

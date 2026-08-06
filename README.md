@@ -1,8 +1,4 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
+<!--ai-->
 # Shortcuts
 
 I want one flexible, version-controlled place to decide what every keyboard shortcut does on my Mac.
@@ -58,3 +54,4 @@ Put application and workflow logic in `hammerspoon/`. Put physical-key timing, d
 After changing Lua, press `⌃⌥⌘R`. After changing a Karabiner rule, disable and re-enable it in Karabiner-Elements. Commit and push the configuration so another Mac can reproduce it with `./setup.sh`.
 
 `setup.sh` refuses to replace an existing non-symlinked configuration. Move or merge that file deliberately, then rerun setup; the script will not discard it.
+<!--/ai-->
