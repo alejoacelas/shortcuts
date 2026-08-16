@@ -1,8 +1,3 @@
----
-human_edit_tracking:
-  enabled: true
-  history: []
----
 # Shortcuts
 
 I want one flexible, version-controlled place to decide what every keyboard shortcut does on my Mac.
